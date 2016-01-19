@@ -46,6 +46,9 @@
     <bean id="SMSDao" class="dao.SMSDaoImpl"></bean>
     <bean id="SMSService" class="service.SMSServiceImpl"></bean>
     
+     <bean id="SMSSendDao" class="dao.SMSSendDaoImpl"></bean>
+    <bean id="SMSSendService" class="service.SMSSendServiceImpl"></bean>
+    
      
    <bean id="SMSSenderRunnable" class="service.SMSSenderRunnable">
 	</bean>

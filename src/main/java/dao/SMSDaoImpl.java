@@ -47,6 +47,7 @@ public class SMSDaoImpl implements SMSDao {
 		return smsList;
 	}
 
+	@Override
 	public boolean deleteSMS(long id) throws Exception {
 		session = sessionFactory.openSession();
 		Object sms = session.load(SMS.class, id);
